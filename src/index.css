@@ -20,7 +20,56 @@
 
 .dark-mode .btn-outline-secondary:hover {
   background-color: #ffffff;
-  color: #121212;
+  color: #ae5656;
+}
+
+/* Dark mode hover effect */
+.dark-mode .navbar-nav .nav-link {
+  position: relative; 
+}
+
+.dark-mode .navbar-nav .nav-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 40%; 
+  height: 5px; 
+  background-color: #04e596; 
+  transform: scaleX(0); 
+  transition: transform 0.6s ease; 
+  transform-origin: right; 
+}
+
+.dark-mode .navbar-nav .nav-link:hover::after {
+  transform: scaleX(1); 
+  transform-origin: left; 
 }
 
 /* Light Mode */
+.navbar {
+  background-color: #ffffff !important; 
+}
+
+.nav-link {
+  color: #333333; 
+  position: relative; 
+}
+
+.navbar-nav .nav-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 40%; 
+  height: 5px; 
+  background-color: #04e596; 
+  transform: scaleX(0); 
+  transition: transform 0.6s ease;
+  transform-origin: right; 
+}
+
+.navbar-nav .nav-link:hover::after {
+  transform: scaleX(1); 
+  transform-origin: left; 
+}
