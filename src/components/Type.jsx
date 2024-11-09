@@ -6,8 +6,8 @@ function Type() {
     <div style={{ display: 'inline-block', minWidth: '400px', textAlign: 'left' }}>
       <Typewriter
         options={{
-          strings: ["Danut Nanu",
-            "Software Developer",
+          strings: ["React Developer",
+            "Frontend Developer",
             "Freelancer",
           ],
           autoStart: true,
