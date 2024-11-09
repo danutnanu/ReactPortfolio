@@ -17,11 +17,11 @@ function Navigation({ toggleTheme, darkMode }) {
       <Container>
         <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={handleToggle} />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mx-auto gap-5 fs-4">
-            <Nav.Link as={Link} to="/" onClick={handleClose}>Home</Nav.Link>
-            <Nav.Link as={Link} to="/about" onClick={handleClose}>About</Nav.Link>
-            <Nav.Link as={Link} to="/projects" onClick={handleClose}>Projects</Nav.Link>
-            <Nav.Link as={Link} to="/contact" onClick={handleClose}>Contact</Nav.Link>
+          <Nav className="mx-auto gap-5 fs-3">
+            <Nav.Link as={Link} to="/" onClick={handleClose} className="nav-link">Home</Nav.Link>
+            <Nav.Link as={Link} to="/about" onClick={handleClose} className="nav-link">About</Nav.Link>
+            <Nav.Link as={Link} to="/projects" onClick={handleClose} className="nav-link">Projects</Nav.Link>
+            <Nav.Link as={Link} to="/contact" onClick={handleClose} className="nav-link">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
         <button onClick={toggleTheme} className="btn btn-outline-secondary">
