@@ -1,6 +1,10 @@
 # React Portfolio
 
 View the live site 
+ 
+## Project Overview
+
+This is a personal portfolio website built with React. It showcases my projects, skills, and experience in web development.
 
 ## Features
 
@@ -8,6 +12,17 @@ View the live site
 📱  Responsive design
 🎨  Smooth animations
 🔗  Easy navigation
+
+## Screenshots
+
+![Screenshot of Portfolio](./public/readme.png)
+
+## Technologies Used
+
+- ⚛️ React
+- 🎨 Bootstrap
+- 🌟 FontAwesome
+
 
 ## How to Use
 
@@ -34,3 +49,7 @@ View the live site
    ```
 
 6. **View in Browser**: Open your browser and go to `http://localhost:3000` to see your local copy running.
+
+## Contact
+
+Feel free to reach out via [email](mailto:danutnanu@icloud.com) or [LinkedIn](https://www.linkedin.com/in/danut-nanu-7474b4267/).
