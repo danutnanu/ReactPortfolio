@@ -1,12 +1,22 @@
-/* Dark Mode */
+body {
+  margin: 0; /* Remove default margin */
+  background-image: url('/background5.png'); /* Set the background image for light mode */
+  background-size: cover; /* Cover the entire area */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+}
 
+/* Dark Mode */
 .dark-mode {
-  background-color: #333333;
-  color: #ffffff;
+  background-image: url('/background6.png'); /* Set the background image for dark mode */
+  background-size: cover; /* Cover the entire area */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  color: #ffffff; /* Optional: Change text color for better visibility */
 }
 
 .dark-mode .navbar {
-  background-color: #333333 !important;
+  background-color: #001729 !important;
 }
 
 .dark-mode a, .dark-mode .nav-link {
@@ -48,7 +58,7 @@
 
 /* Light Mode */
 .navbar {
-  background-color: #ffffff !important; 
+  background-color: #d4dfdf; /* Changed to a new background color for light mode */
 }
 
 .nav-link {
@@ -78,6 +88,11 @@
   display: inline-block;
   animation: wave-animation 2s infinite;
   transform-origin: 70% 70%;
+}
+
+/* New rule for left alignment of h1 elements */
+h1 {
+  text-align: left; 
 }
 
 @keyframes wave-animation {
