@@ -48,7 +48,7 @@ This is a personal portfolio website built with React. It showcases my projects,
    npm run start
    ```
 
-6. **View in Browser**: Open your browser and go to `http://localhost:3000` to see your local copy running.
+6. **View in Browser**: Open your browser and go to your localhost to see your project running.
 
 ## Contact
 
