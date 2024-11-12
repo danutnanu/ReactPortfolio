@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navigation from './components/Navbar';
 import Home from './components/Home';
@@ -12,8 +12,16 @@ function App() {
 
   const toggleTheme = () => setDarkMode(!darkMode);
 
+  useEffect(() => {
+    if (darkMode) {
+      document.body.classList.add('dark-mode');
+    } else {
+      document.body.classList.remove('dark-mode');
+    }
+  }, [darkMode]);
+
   return (
-    <div className={darkMode ? 'dark-mode' : ''}>
+    <div>
       <Router>
         <Navigation toggleTheme={toggleTheme} darkMode={darkMode} />
         <Routes>
