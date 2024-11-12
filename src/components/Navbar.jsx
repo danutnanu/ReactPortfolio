@@ -13,11 +13,15 @@ function Navigation({ toggleTheme, darkMode }) {
   const handleClose = () => setExpanded(false);
 
   return (
-    <Navbar expand="lg" className={`bg-body-tertiary w-100 fixed-top ${darkMode ? 'bg-dark' : 'bg-light'}`} expanded={expanded}>
+    <Navbar 
+      expand="lg" 
+      className={`w-100 fixed-top ${darkMode ? 'bg-dark' : 'custom-light-bg'}`}
+      expanded={expanded}
+    >
       <Container>
         <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={handleToggle} />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mx-auto gap-5 fs-3">
+          <Nav className="mx-auto gap-5 fs-4">
             <Nav.Link as={Link} to="/" onClick={handleClose} className="nav-link">Home</Nav.Link>
             <Nav.Link as={Link} to="/about" onClick={handleClose} className="nav-link">About</Nav.Link>
             <Nav.Link as={Link} to="/projects" onClick={handleClose} className="nav-link">Projects</Nav.Link>
@@ -25,7 +29,7 @@ function Navigation({ toggleTheme, darkMode }) {
           </Nav>
         </Navbar.Collapse>
         <button onClick={toggleTheme} className="btn btn-outline-secondary">
-          <FontAwesomeIcon icon={darkMode ? faSun : faMoon} />
+          {darkMode ? '🌔' : '🌘'} 
         </button>
       </Container>
     </Navbar>
