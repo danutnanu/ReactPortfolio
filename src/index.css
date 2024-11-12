@@ -1,22 +1,29 @@
-body {
+html, body {
+  height: 100%;
   margin: 0; /* Remove default margin */
-  background-image: url('/background5.png'); /* Set the background image for light mode */
+}
+
+/* Light Mode */
+body {
+  background-image: url('/background.png'); /* Set the background image for light mode */
   background-size: cover; /* Cover the entire area */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-attachment: fixed; /* Fix the background image */
 }
 
 /* Dark Mode */
 .dark-mode {
-  background-image: url('/background6.png'); /* Set the background image for dark mode */
+  background-image: url('/background2.png'); /* Set the background image for dark mode */
   background-size: cover; /* Cover the entire area */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-attachment: fixed; /* Fix the background image */
   color: #ffffff; /* Optional: Change text color for better visibility */
 }
 
 .dark-mode .navbar {
-  background-color: #001729 !important;
+  background-color: #323b46 !important;
 }
 
 .dark-mode a, .dark-mode .nav-link {
@@ -58,7 +65,12 @@ body {
 
 /* Light Mode */
 .navbar {
-  background-color: #d4dfdf; /* Changed to a new background color for light mode */
+  background-color: #cecece; /* Changed to a new background color for light mode */
+  position: fixed; /* Fix the navbar at the top */
+  top: 0; /* Align to the top */
+  left: 0; /* Align to the left */
+  width: 100%; /* Full width */
+  z-index: 1000; /* Ensure it stays above other content */
 }
 
 .nav-link {
@@ -109,7 +121,7 @@ h1 {
 /* terminal */
 .terminal {
   background-color: #2d2d2d;
-  color: #d3d3d3; 
+  color: #d3d3d3e3; 
   font-family: 'Courier New', Courier, monospace;
   border-radius: 8px;
   max-width: 600px;
@@ -118,7 +130,7 @@ h1 {
 }
 
 .terminal-header {
-  background-color: #ccc;
+  background-color: #ccccccab;
   padding: 5px;
   display: flex;
   align-items: center;
@@ -169,5 +181,23 @@ h1 {
 .skills div {
   width: 45%;
 }
-
 /* terminal */
+
+.fixed-container {
+  position: fixed; /* Fix the position of the container */
+  top: 0; /* Align to the top */
+  left: 0; /* Align to the left */
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  display: flex; /* Flexbox for alignment */
+  flex-direction: column; /* Stack children vertically */
+  z-index: 1; /* Ensure it stays above other content */
+}
+
+.content {
+  margin-top: 40px; /* Adjust this value to move the content higher */
+  flex: 1; /* Allow the content to take the remaining space */
+  display: flex; /* Flexbox for alignment */
+  flex-direction: column; /* Stack children vertically */
+  justify-content: center; /* Center content vertically */
+}
