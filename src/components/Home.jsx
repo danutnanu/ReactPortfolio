@@ -4,21 +4,21 @@ import Type from './Type';
 function Home() {
   return (
     <>
-      <div className="d-flex align-items-center m-5 vh-100">
-        <div className='ms-5 ps-5'>
-          <h2 className='ms-5 ps-5'>
+      <div className="fixed-container d-flex flex-column vh-100">
+        <div className='content ms-5 ps-5'>
+          <h2 className='ms-3 mt-5'>
             Hi, there!
             <span className="wave" role="img" aria-labelledby="wave">
               👋🏻
             </span>
           </h2>
-          <h1 style={{ fontSize: '5rem' }}>
+          <h1 className='mb-1 mt-2' style={{ fontSize: '5rem' }}>
             Danut Nanu
           </h1>
           <h2>
             <Type />
           </h2>
-          <div className="d-flex mt-5">
+          <div className="d-flex mt-5 ms-3">
             <a href="mailto:danutnanu@icloud.com" target="_blank" className="me-3 text-decoration-none text-dark" aria-label="Email">
               <img src="/email.png" alt="Email" style={{ width: '40px', height: '40px' }} />
             </a>
