@@ -6,7 +6,7 @@ function Home() {
     <>
       <div className="d-flex align-items-center m-5 vh-100">
         <div className='ms-5 ps-5'>
-          <h2>
+          <h2 className='ms-5 ps-5'>
             Hi, there!
             <span className="wave" role="img" aria-labelledby="wave">
               👋🏻
