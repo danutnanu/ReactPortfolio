@@ -4,9 +4,9 @@ function About() {
   return (
     <div className="container mt-5 m-2 pt-5 vh-100">
       <h1 className="text-center my-5">About Me</h1>
-      <div className="border-container" style={{ display: 'flex', border: '2px solid #000', borderRadius: '8px', overflow: 'hidden' }}>
+      <div className="border-container" style={{ display: 'flex', borderRadius: '8px', overflow: 'hidden' }}>
         <div className="image-section m-4 px-5" style={{ flex: '1', display: 'flex', alignItems: 'center' }}>
-          <img src="/profile.png" alt="Description of image" className="img-fluid" style={{ height: '100%', maxHeight: '400px', width: 'auto' }} />
+          <img src="/profile.png" alt="Description of image" className="img-fluid rounded border border-dark" style={{ height: '100%', maxHeight: '400px', width: 'auto' }} />
         </div>
         <div className="text-section m-4 px-5">
           <div className="terminal">
