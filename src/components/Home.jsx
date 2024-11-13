@@ -4,7 +4,7 @@ import Type from './Type';
 function Home() {
   return (
     <>
-      <div className="fixed-container d-flex flex-column vh-100">
+      <div className="fixed-container d-flex flex-column ms-5 vh-100">
         <div className='content ms-5 ps-5'>
           <h2 className='ms-3 mt-5'>
             Hi, there!
