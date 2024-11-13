@@ -4,11 +4,11 @@ function About() {
   return (
     <div className="container-fluid mt-5 pt-5 px-5 vh-100">
       <h1 className="text-center my-2">About Me</h1>
-      <div className="border-container my-5 mx-0 border border-danger" style={{ display: 'flex', borderRadius: '8px', overflow: 'hidden', width: '100%' }}>
-        <div className="image-section m-4" style={{ flex: '1', display: 'flex', alignItems: 'center', padding: '0 80px' }}>
+      <div className="border-container my-5 ps-5 pt-5 border border-danger" style={{ display: 'flex', borderRadius: '8px', overflow: 'hidden', width: '100%' }}>
+        <div className="image-section ms-4" style={{ flex: '1', display: 'flex', alignItems: 'center', padding: '0 70px' }}>
           <img src="/profile.png" alt="Description of image" className="img-fluid rounded border border-dark" style={{ height: '100%', maxHeight: '400px', width: 'auto' }} />
         </div>
-        <div className="text-section m-4" style={{ flex: '1', padding: '0 20px' }}>
+        <div className="text-section me-4 pe-5" style={{ flex: '1', padding: '0 20px' }}>
           <div className="terminal">
             <div className="terminal-header">
               <span className="circle red"></span>
@@ -23,7 +23,7 @@ function About() {
         </div>
       </div>
       <div className="border-container border border-danger" style={{ display: 'flex', borderRadius: '8px', overflow: 'hidden', width: '100%' }}>
-        <div className="text-section m-4 px-5">
+        <div className="text-section m-5 px-5">
           <div className="terminal">
             <div className="terminal-header">
               <span className="circle red"></span>
@@ -52,8 +52,39 @@ function About() {
             </div>
           </div>
         </div>
-        <div className="image-section m-4 px-5" style={{ flex: '1', display: 'flex', alignItems: 'center' }}>
+        <div className="image-section m-5 px-5" style={{ flex: '1', display: 'flex', alignItems: 'center' }}>
           <img src="/profile.png" alt="Description of image" className="img-fluid rounded border border-dark" style={{ height: '100%', maxHeight: '400px', width: 'auto' }} />
+        </div>
+      </div>
+      <div className="border-container my-5 mx-0 border border-danger" style={{ display: 'flex', borderRadius: '8px', overflow: 'hidden', width: '100%' }}>
+        <div className="image-section m-4" style={{ flex: '1', display: 'flex', alignItems: 'center', padding: '0 80px' }}>
+          <img src="/profile.png" alt="Description of image" className="img-fluid rounded border border-dark" style={{ height: '100%', maxHeight: '400px', width: 'auto' }} />
+        </div>
+        <div className="text-section m-4" style={{ flex: '1', padding: '0 20px' }}>
+          <div className="terminal">
+            <div className="terminal-header">
+              <span className="circle red"></span>
+              <span className="circle yellow"></span>
+              <span className="circle green"></span>
+            </div>
+            <div className="terminal-body fs-5">
+              <p><span className="command">danutnanu $</span> <span className="lighter">cd certificate</span></p>
+              <p><span className="command">certificate (main) $</span> <span className="lighter">ls</span></p>
+              <p className="section-title">FreeCodeCamp Frontend Certificates</p>
+              <ul className="skills">
+                <li><a href="./public/responsive_web_design.png" title="Responsive Web Design Certificate"
+                  target="_blank">Responsive Web Design (html, css)</a></li>
+                <li><a href="./public/javascript.png" title="JavaScript Algorithms and Data
+                Structures Certificate" target="_blank">JavaScript Algorithms and Data Structures (JavaScript)</a></li>
+                <li><a href="./public/frontend-libraries.png" title="Front End Development Libraries Certificate"
+                  target="_blank">Front End Development Libraries (React, Bootstrap, jQuery)</a></li>
+                <li><a href="./public/data-visualization.png" title="Data Visualization Certificate" target="_blank">Data Visualization (D3.js)</a></li>
+                <li><a href="./public/backend.png" title="Back End Development and APIs Certificate" target="_blank">Back End Development and APIs (Node, Express, MongoDB)</a></li>
+                <li><a href="./public/backend.png" title="Back End Development and APIs Certificate" target="_blank">Relational Database (Bash and SQL)</a></li>
+                <li><a href="./public/quality-assurance.png" title="Quality Assurance Certificate" target="_blank">Quality Assurance (Chai, Mocha)</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>
