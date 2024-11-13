@@ -1,6 +1,7 @@
 html, body {
   height: 100%;
   margin: 0; /* Remove default margin */
+  padding: 0; 
 }
 
 /* Light Mode */
@@ -121,7 +122,7 @@ h1 {
 /* terminal */
 .terminal {
   background-color: #2d2d2d;
-  color: #d3d3d3e3; 
+  color: #d3d3d3; 
   font-family: 'Courier New', Courier, monospace;
   border-radius: 8px;
   max-width: 600px;
