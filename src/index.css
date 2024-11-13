@@ -1,34 +1,34 @@
 html, body {
   height: 100%;
-  margin: 0; /* Remove default margin */
+  margin: 0; 
   padding: 0; 
 }
 
 /* Light Mode */
 body {
-  background-image: url('/background.png'); /* Set the background image for light mode */
-  background-size: cover; /* Cover the entire area */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Prevent the image from repeating */
-  background-attachment: fixed; /* Fix the background image */
+  background-image: url('/background.png'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
 }
 
 /* Dark Mode */
 .dark-mode {
-  background-image: url('/background2.png'); /* Set the background image for dark mode */
-  background-size: cover; /* Cover the entire area */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Prevent the image from repeating */
-  background-attachment: fixed; /* Fix the background image */
-  color: #ffffff; /* Optional: Change text color for better visibility */
+  background-image: url('/background2.png'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+  color: #ffffff; 
 }
 
 .dark-mode .navbar {
   background-color: #323b46 !important;
 }
 
-.dark-mode a, .dark-mode .nav-link {
-  color: #ffffff !important;
+.dark-mode .nav-link {
+  color: #ffffff !important; 
 }
 
 .dark-mode .btn-outline-secondary {
@@ -66,12 +66,12 @@ body {
 
 /* Light Mode */
 .navbar {
-  background-color: #cecece; /* Changed to a new background color for light mode */
-  position: fixed; /* Fix the navbar at the top */
-  top: 0; /* Align to the top */
-  left: 0; /* Align to the left */
-  width: 100%; /* Full width */
-  z-index: 1000; /* Ensure it stays above other content */
+  background-color: #cecece; 
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  z-index: 1000; 
 }
 
 .nav-link {
@@ -182,23 +182,44 @@ h1 {
 .skills div {
   width: 45%;
 }
+
 /* terminal */
 
 .fixed-container {
-  position: fixed; /* Fix the position of the container */
-  top: 0; /* Align to the top */
-  left: 0; /* Align to the left */
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  display: flex; /* Flexbox for alignment */
-  flex-direction: column; /* Stack children vertically */
-  z-index: 1; /* Ensure it stays above other content */
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%; 
+  display: flex; 
+  flex-direction: column; 
+  z-index: 1; 
 }
 
 .content {
-  margin-top: 40px; /* Adjust this value to move the content higher */
-  flex: 1; /* Allow the content to take the remaining space */
-  display: flex; /* Flexbox for alignment */
-  flex-direction: column; /* Stack children vertically */
-  justify-content: center; /* Center content vertically */
+  margin-top: 40px; 
+  flex: 1; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+}
+
+/* Common link styles */
+a {
+    color: white; /* Default link color for both modes */
+}
+
+/* Light Mode Specific Link Styles */
+body a {
+    color: white; 
+}
+
+/* Change link color on hover */
+a:hover {
+    color: #007bff; 
+}
+
+/* Ensure links in dark mode change to blue on hover */
+.dark-mode a:hover {
+    color: #007bff;
 }
