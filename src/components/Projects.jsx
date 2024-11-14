@@ -12,45 +12,40 @@ function Projects() {
           {/* First Column */}
           <div className='col-lg-4 col-md-6 mb-4'>
             <ProjectItem
-              img="profile.png"
-              description="Project 1: Description"
-              link="/project1"
+              img="RBAC.png"
+              description="RBAC"
+              link="/project6"
             />
             <ProjectItem
-              img="profile2.png"
-              description="Project 4: Description"
-              link="/project4"
+              img="clock.png"
+              description="25 + 5 Clock"
+              link="/project1"
             />
           </div>
           {/* Second Column */}
           <div className='col-lg-4 col-md-6 mb-4'>
             <ProjectItem
-              img="profile3.png"
-              description="Project 2: Description"
-              link="/project2"
-            />
-            <ProjectItem
-              img="profile6.png"
-              description="Project 5: Description"
+              img="run.png"
+              description="Miles Of Memories"
               link="/project5"
             />
-             <ProjectItem
-              img="profile7.png"
-              description="Project 7: Description"
-              link="/project7"
+            <ProjectItem
+              img="drum2.png"
+              description="Drum Machine"
+              link="/project3"
             />
           </div>
           {/* Third Column */}
           <div className='col-lg-4 col-md-6 mb-4'>
             <ProjectItem
-              img="profile5.png"
-              description="Project 3: Description"
-              link="/project3"
+              img="calculator.png"
+              description="JavaScript Calculator"
+              link="/project2"
             />
             <ProjectItem
-              img="profile4.png"
-              description="Project 6: Description"
-              link="/project6"
+              img="heatmap2.png"
+              description="Visualize Data with a Heat Map"
+              link="/project4"
             />
           </div>
         </div>
