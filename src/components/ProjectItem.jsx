@@ -9,8 +9,8 @@ function ProjectItem({ img, description, link, githubLink }) {
         <div className="overlay">
           <h5 className="project-item-text text-center">{description}</h5>
           <div className="button-container">
-            <Link to={link} className="btn btn-primary mx-2">View Project</Link>
-            <Link to={githubLink} className="btn btn-secondary mx-2">GitHub</Link>
+            <Link to={link} className="btn">View Project</Link>
+            <Link to={githubLink} className="btn">GitHub Code</Link>
           </div>
         </div>
       </Link>
