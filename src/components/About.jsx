@@ -4,7 +4,7 @@ function About() {
   return (
     <div className="container-fluid mt-5 pt-5 px-5 vh-100">
       <h1 className="text-center my-2">About Me</h1>
-      <div className="border-container my-5 ps-5 pt-5 border border-danger" style={{ display: 'flex', borderRadius: '8px', overflow: 'hidden', width: '100%' }}>
+      <div className="border-container my-5 ps-5 pt-5" style={{ display: 'flex', borderRadius: '8px', overflow: 'hidden', width: '100%' }}>
         <div className="image-section ms-4" style={{ flex: '1', display: 'flex', alignItems: 'center', padding: '0 70px' }}>
           <img src="/profile.png" alt="Description of image" className="img-fluid rounded border border-dark" style={{ height: '100%', maxHeight: '400px', width: 'auto' }} />
         </div>
@@ -22,7 +22,7 @@ function About() {
           </div>
         </div>
       </div>
-      <div className="border-container border border-danger" style={{ display: 'flex', borderRadius: '8px', overflow: 'hidden', width: '100%' }}>
+      <div className="border-container" style={{ display: 'flex', borderRadius: '8px', overflow: 'hidden', width: '100%' }}>
         <div className="text-section m-5 px-5">
           <div className="terminal">
             <div className="terminal-header">
@@ -56,7 +56,7 @@ function About() {
           <img src="/profile.png" alt="Description of image" className="img-fluid rounded border border-dark" style={{ height: '100%', maxHeight: '400px', width: 'auto' }} />
         </div>
       </div>
-      <div className="border-container my-5 mx-0 border border-danger" style={{ display: 'flex', borderRadius: '8px', overflow: 'hidden', width: '100%' }}>
+      <div className="border-container my-5 mx-0" style={{ display: 'flex', borderRadius: '8px', overflow: 'hidden', width: '100%' }}>
         <div className="image-section m-4" style={{ flex: '1', display: 'flex', alignItems: 'center', padding: '0 80px' }}>
           <img src="/profile.png" alt="Description of image" className="img-fluid rounded border border-dark" style={{ height: '100%', maxHeight: '400px', width: 'auto' }} />
         </div>
