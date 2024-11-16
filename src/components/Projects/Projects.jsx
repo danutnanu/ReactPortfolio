@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import ProjectItem from './ProjectItem'; // Import the ProjectItem component
+import ProjectItem from '../ProjectItem'; // Import the ProjectItem component
+import './Projects.css';
 
 function Projects() {
   return (
