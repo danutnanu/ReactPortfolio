@@ -19,6 +19,7 @@ function Navigation({ toggleTheme, darkMode }) {
       expanded={expanded}
     >
       <Container>
+      <span className="badge text-bg-light text-wrap fst-italic p-1 border border-warning">Portfolio</span>
         <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={handleToggle} />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto gap-5 fs-4">
