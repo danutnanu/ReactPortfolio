@@ -1,5 +1,7 @@
 html, body {
   height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 /* Light Mode */
@@ -8,6 +10,7 @@ body {
   background-size: cover; 
   background-position: center; 
   background-attachment: fixed; 
+  padding: 20px;
 }
 
 /* Dark Mode */
@@ -24,4 +27,12 @@ body a {
 /* Change link color on hover */
 a:hover {
     color: #95bce6; 
+}
+
+/* Centering Utility */
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }

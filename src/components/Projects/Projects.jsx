@@ -1,17 +1,17 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import ProjectItem from '../ProjectItem'; // Import the ProjectItem component
+import ProjectItem from '../ProjectItem'; 
 import './Projects.css';
 
 function Projects() {
   return (
-    <Container className="About-header text-secondary me-5 p-0 p-lg-5">
-      <h1 className='my-5'>Projects</h1>
+    <Container className="About-header text-secondary p-lg-5">
+      <h1 className='my-5 pt-5'>Projects</h1>
       <hr className='my-5' />
       <div className='projects__container'>
-        <div className='row g-1 ms-4'>
+        <div className='row g-5 justify-content-center'>
           {/* First Column */}
-          <div className='col-lg-4 col-md-6 mb-4'>
+          <div className='col-12 col-md-6 col-lg-4 mb-4'>
             <ProjectItem
               img="RBAC.png"
               description="Role Based Access Control"
@@ -26,7 +26,7 @@ function Projects() {
             />
           </div>
           {/* Second Column */}
-          <div className='col-lg-4 col-md-6 mb-4'>
+          <div className='col-12 col-md-6 col-lg-4 mb-4'>
             <ProjectItem
               img="run.png"
               description="Miles Of Memories"
@@ -41,7 +41,7 @@ function Projects() {
             />
           </div>
           {/* Third Column */}
-          <div className='col-lg-4 col-md-6 mb-4'>
+          <div className='col-12 col-md-6 col-lg-4 mb-4'>
             <ProjectItem
               img="calculator.png"
               description="JavaScript Calculator"

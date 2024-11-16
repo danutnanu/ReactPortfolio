@@ -5,8 +5,12 @@
   align-items: center;
 }
 
+.row {
+  width: 100%;
+}
+
 .project-item-container {
-  /* position: relative; */
+  margin: 0 auto;
   overflow: hidden; 
   border: 5px solid #000; /* Thick border around the container */
   border-radius: 2px; /* Optional: rounded corners */
