@@ -8,8 +8,8 @@ function ProjectItem({ img, description, link, githubLink }) {
       <div className="overlay">
         <h5 className="project-item-text text-center">{description}</h5>
         <div className="button-container">
-          <Link to={link} className="btn">View Project</Link>
-          <a href={githubLink} className="btn" target="_blank" rel="noopener noreferrer">GitHub Code</a>
+          <Link to={link} className="btn" target="_blank">View</Link>
+          <a href={githubLink} className="btn" target="_blank" rel="noopener noreferrer">GitHub</a>
         </div>
       </div>
     </div>
