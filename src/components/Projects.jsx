@@ -8,7 +8,7 @@ function Projects() {
       <h1 className='my-5'>Projects</h1>
       <hr className='my-5' />
       <div className='projects__container'>
-        <div className='row g-1'>
+        <div className='row g-1 ms-4'>
           {/* First Column */}
           <div className='col-lg-4 col-md-6 mb-4'>
             <ProjectItem
