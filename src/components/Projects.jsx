@@ -13,13 +13,15 @@ function Projects() {
           <div className='col-lg-4 col-md-6 mb-4'>
             <ProjectItem
               img="RBAC.png"
-              description="RBAC"
-              link="/project6"
+              description="Role Based Access Control"
+              link="https://rolebasedaccesscontrol.netlify.app/"
+              githubLink="https://github.com/danutnanu/RoleBasedAccessControl"
             />
             <ProjectItem
               img="clock.png"
               description="25 + 5 Clock"
-              link="/project1"
+              link="https://codepen.io/Danut-Nanu/full/MWzwYLY"
+              githubLink="https://github.com/danutnanu/freecodecamp/tree/main/Front%20End%20Development%20Libraries/25%20%2B%205%20clock"
             />
           </div>
           {/* Second Column */}
@@ -27,12 +29,14 @@ function Projects() {
             <ProjectItem
               img="run.png"
               description="Miles Of Memories"
-              link="/project5"
+              link="https://milesofmemories.netlify.app/#"
+              githubLink="https://github.com/danutnanu/MilesOfMemories-React"
             />
             <ProjectItem
               img="drum2.png"
               description="Drum Machine"
-              link="/project3"
+              link="https://codepen.io/Danut-Nanu/full/KKGLmJL"
+              githubLink="https://github.com/danutnanu/freecodecamp/tree/main/Front%20End%20Development%20Libraries/Drum%20Machine"
             />
           </div>
           {/* Third Column */}
@@ -40,12 +44,14 @@ function Projects() {
             <ProjectItem
               img="calculator.png"
               description="JavaScript Calculator"
-              link="/project2"
+              link="https://codepen.io/Danut-Nanu/full/ExOxYGG"
+              githubLink="https://github.com/danutnanu/freecodecamp/tree/main/Front%20End%20Development%20Libraries/JavaScriptCalculator"
             />
             <ProjectItem
               img="heatmap2.png"
               description="Visualize Data with a Heat Map"
-              link="/project4"
+              link="https://codepen.io/Danut-Nanu/full/gOQWYzN"
+              githubLink="https://github.com/danutnanu/freecodecamp/tree/main/Data%20Visualization%20Certification/Visualize%20Data%20with%20a%20Heat%20Map"
             />
           </div>
         </div>
