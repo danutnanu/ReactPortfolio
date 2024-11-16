@@ -4,16 +4,14 @@ import { Link } from 'react-router-dom';
 function ProjectItem({ img, description, link, githubLink }) {
   return (
     <div className="position-relative project-item-container">
-      <Link className="project-item-link" to={link}>
-        <img className="img-fluid project-item-img" alt={description} src={img} />
-        <div className="overlay">
-          <h5 className="project-item-text text-center">{description}</h5>
-          <div className="button-container">
-            <Link to={link} className="btn">View Project</Link>
-            <Link to={githubLink} className="btn">GitHub Code</Link>
-          </div>
+      <img className="img-fluid project-item-img" alt={description} src={img} />
+      <div className="overlay">
+        <h5 className="project-item-text text-center">{description}</h5>
+        <div className="button-container">
+          <Link to={link} className="btn">View Project</Link>
+          <a href={githubLink} className="btn" target="_blank" rel="noopener noreferrer">GitHub Code</a>
         </div>
-      </Link>
+      </div>
     </div>
   );
 }
