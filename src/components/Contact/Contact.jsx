@@ -19,6 +19,7 @@ function Contact() {
           </div>
         </div>
       </div>
+      <h1 className="text-start my-5 pt-5 bor-bottom"></h1>
     </Container>
   );
 }

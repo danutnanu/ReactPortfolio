@@ -56,6 +56,7 @@ function Projects() {
           </div>
         </div>
       </div>
+      <h1 className="bor-bottom mb-5"></h1>
     </Container>
   );
 }

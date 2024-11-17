@@ -8,7 +8,7 @@ function About() {
       <h1 className="text-start my-5 pt-5 bor-bottom">About Me</h1>
       
       {/* First Section */}
-      <div className="border-container my-5 py-5 flex-container">
+      <div className="border-container my-3 py-5 flex-container">
         <div className="image-section my-5 pb-5">
           <img src="/profile.png" alt="Description of image" className="img-fluid rounded border border-dark" />
         </div>
@@ -26,9 +26,10 @@ function About() {
           </div>
         </div>
       </div>
+      <h1 className="bor-bottom"></h1>
 
       {/* Second Section */}
-      <div className="border-container my-5 py-5 flex-container">
+      <div className="border-container my-3 py-5 flex-container">
         <div className="text-section">
           <div className="terminal">
             <div className="terminal-header">
@@ -62,9 +63,10 @@ function About() {
           <img src="/profile.png" alt="Description of image" className="img-fluid rounded border border-dark" />
         </div>
       </div>
+      <h1 className="bor-bottom"></h1>
 
       {/* Third Section */}
-      <div className="border-container my-5 py-5 flex-container">
+      <div className="border-container my-3 py-2 flex-container">
         <div className="image-section mb-5 py-5">
           <img src="/profile.png" alt="Description of image" className="img-fluid rounded border border-dark" />
         </div>
@@ -92,6 +94,7 @@ function About() {
           </div>
         </div>
       </div>
+      <h1 className="bor-bottom mb-5"></h1>
     </Container>
   );
 }
