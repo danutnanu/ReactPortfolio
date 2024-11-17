@@ -27,7 +27,7 @@ function Navigation({ toggleTheme, darkMode }) {
           </button>
         </div>
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto gap-5 fs-4 align-items-center">
+          <Nav className="ms-auto gap-4 fs-4 align-items-center">
             <Nav.Link as={Link} to="/" onClick={handleClose} className="nav-link">home</Nav.Link>
             <Nav.Link as={Link} to="/about" onClick={handleClose} className="nav-link">about</Nav.Link>
             <Nav.Link as={Link} to="/projects" onClick={handleClose} className="nav-link">projects</Nav.Link>
