@@ -13,13 +13,13 @@ function Contact() {
         </h4>
         <div className="contact-details">
           <div className="button-container">
-            <a href="mailto:example@example.com" className="btn email-btn">Email</a>
-            <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" className="btn linkedin-btn">LinkedIn</a>
-            <a href="https://github.com/yourprofile" target="_blank" rel="noopener noreferrer" className="btn github-btn">GitHub</a>
+            <a href="mailto:danutnanu@icloud.com" className="btn email-btn">Email</a>
+            <a href="https://www.linkedin.com/in/danut-nanu-7474b4267/" target="_blank" rel="noopener noreferrer" className="btn linkedin-btn">LinkedIn</a>
+            <a href="https://github.com/danutnanu" target="_blank" rel="noopener noreferrer" className="btn github-btn">GitHub</a>
           </div>
         </div>
       </div>
-      <h1 className="text-start my-5 pt-5 bor-bottom"></h1>
+      <p className="text-start my-5 pt-5 bor-bottom"></p>
     </Container>
   );
 }
