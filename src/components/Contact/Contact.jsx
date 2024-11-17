@@ -1,16 +1,17 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
 import './Contact.css'; 
 
 function Contact() {
   return (
-    <div className="contact-page">
+    <Container fluid className="p-lg-5 p-md-3 p-sm-3 vh-100">
+      <h1 className="text-start my-5 pt-5 bor-bottom">Contact Me</h1>
+
       <div className="contact-container">
-        <h1>Contact Me</h1>
-        <p>
+        <h4>
           I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision. Feel free to reach out!
-        </p>
+        </h4>
         <div className="contact-details">
-          <h2>Contact Details</h2>
           <div className="button-container">
             <a href="mailto:example@example.com" className="btn email-btn">Email</a>
             <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" className="btn linkedin-btn">LinkedIn</a>
@@ -18,7 +19,7 @@ function Contact() {
           </div>
         </div>
       </div>
-    </div>
+    </Container>
   );
 }
 
