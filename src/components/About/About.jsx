@@ -4,15 +4,15 @@ import './About.css';
 
 function About() {
   return (
-    <Container fluid className="mt-5 pt-5 px-5 vh-100">
-      <h1 className="text-center my-2">About Me</h1>
-
+    <Container fluid className="p-lg-5 p-md-3 p-sm-3 ms-lg-5 vh-100">
+      <h1 className="text-start my-5 pt-5 bor-bottom">About Me</h1>
+      
       {/* First Section */}
-      <Container className="border-container my-5" style={{ display: 'flex', borderRadius: '8px', overflow: 'hidden', width: '100%' }}>
-        <div className="image-section" style={{ flex: '1', display: 'flex', alignItems: 'center', padding: '0 20px' }}>
-          <img src="/profile.png" alt="Description of image" className="img-fluid rounded border border-dark" style={{ height: '100%', maxHeight: '400px', width: 'auto' }} />
+      <div className="border-container my-5 py-5 flex-container">
+        <div className="image-section my-5 pb-5">
+          <img src="/profile.png" alt="Description of image" className="img-fluid rounded border border-dark" />
         </div>
-        <div className="text-section" style={{ flex: '1', padding: '0 20px' }}>
+        <div className="text-section">
           <div className="terminal">
             <div className="terminal-header">
               <span className="circle red"></span>
@@ -25,11 +25,11 @@ function About() {
             </div>
           </div>
         </div>
-      </Container>
+      </div>
 
       {/* Second Section */}
-      <Container className="border-container my-5" style={{ display: 'flex', borderRadius: '8px', overflow: 'hidden', width: '100%' }}>
-        <div className="text-section" style={{ flex: '1', padding: '0 20px' }}>
+      <div className="border-container my-5 py-5 flex-container">
+        <div className="text-section">
           <div className="terminal">
             <div className="terminal-header">
               <span className="circle red"></span>
@@ -58,17 +58,17 @@ function About() {
             </div>
           </div>
         </div>
-        <div className="image-section" style={{ flex: '1', display: 'flex', alignItems: 'center', padding: '0 20px' }}>
-          <img src="/profile.png" alt="Description of image" className="img-fluid rounded border border-dark" style={{ height: '100%', maxHeight: '400px', width: 'auto' }} />
+        <div className="image-section mt-5 pt-5 ">
+          <img src="/profile.png" alt="Description of image" className="img-fluid rounded border border-dark" />
         </div>
-      </Container>
+      </div>
 
       {/* Third Section */}
-      <Container className="border-container my-5" style={{ display: 'flex', borderRadius: '8px', overflow: 'hidden', width: '100%' }}>
-        <div className="image-section" style={{ flex: '1', display: 'flex', alignItems: 'center', padding: '0 20px' }}>
-          <img src="/profile.png" alt="Description of image" className="img-fluid rounded border border-dark" style={{ height: '100%', maxHeight: '400px', width: 'auto' }} />
+      <div className="border-container my-5 py-5 flex-container">
+        <div className="image-section mb-5 py-5">
+          <img src="/profile.png" alt="Description of image" className="img-fluid rounded border border-dark" />
         </div>
-        <div className="text-section" style={{ flex: '1', padding: '0 20px' }}>
+        <div className="text-section">
           <div className="terminal">
             <div className="terminal-header">
               <span className="circle red"></span>
@@ -91,7 +91,7 @@ function About() {
             </div>
           </div>
         </div>
-      </Container>
+      </div>
     </Container>
   );
 }
