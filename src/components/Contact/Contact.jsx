@@ -4,7 +4,7 @@ import './Contact.css';
 
 function Contact() {
   return (
-    <Container fluid className="p-lg-5 p-md-3 p-sm-3 vh-100">
+    <Container className="p-lg-5 p-md-3 p-sm-3 ms-lg-5 vh-100">
       <h1 className="text-start my-5 pt-5 bor-bottom">Contact Me</h1>
 
       <div className="contact-container">
