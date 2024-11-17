@@ -26,7 +26,7 @@ function About() {
           </div>
         </div>
       </div>
-      <h1 className="bor-bottom"></h1>
+      <p className="bor-bottom"></p>
 
       {/* Second Section */}
       <div className="border-container my-3 py-5 flex-container">
@@ -63,7 +63,7 @@ function About() {
           <img src="/profile.png" alt="Description of image" className="img-fluid rounded border border-dark" />
         </div>
       </div>
-      <h1 className="bor-bottom"></h1>
+      <p className="bor-bottom"></p>
 
       {/* Third Section */}
       <div className="border-container my-3 py-2 flex-container">
@@ -94,7 +94,7 @@ function About() {
           </div>
         </div>
       </div>
-      <h1 className="bor-bottom my-5"></h1>
+      <p className="bor-bottom my-5"></p>
     </Container>
   );
 }
