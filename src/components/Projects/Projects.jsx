@@ -5,9 +5,8 @@ import './Projects.css';
 
 function Projects() {
   return (
-    <Container className="About-header text-secondary p-lg-5">
-      <h1 className='my-5 pt-5'>Projects</h1>
-      <hr className='my-5' />
+    <Container className="About-header p-lg-5">
+      <h1 className='my-5 pt-5 bor-bottom'>Projects</h1>
       <div className='projects__container'>
         <div className='row g-5 justify-content-center'>
           {/* First Column */}
