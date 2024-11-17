@@ -70,7 +70,7 @@ function About() {
         <div className="image-section mb-5 py-5">
           <img src="/profile.png" alt="Description of image" className="img-fluid rounded border border-dark" />
         </div>
-        <div className="text-section">
+        <div className="text-section pt-2">
           <div className="terminal">
             <div className="terminal-header">
               <span className="circle red"></span>
@@ -94,7 +94,7 @@ function About() {
           </div>
         </div>
       </div>
-      <h1 className="bor-bottom mb-5"></h1>
+      <h1 className="bor-bottom my-5"></h1>
     </Container>
   );
 }
