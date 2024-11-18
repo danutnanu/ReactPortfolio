@@ -50,7 +50,7 @@ function About() {
                 <div>html5</div>
                 <div>css3</div>
               </div>
-              <p className="section-title">Exposed To</p>
+              <p className="section-title">Familiar With</p>
               <div className="skills">
                 <div>nodejs</div>
                 <div>mongodb</div>
@@ -68,7 +68,7 @@ function About() {
       {/* Third Section */}
       <div className="border-container my-3 py-2 flex-container">
         <div className="image-section mb-5 py-5">
-          <img src="/profile2.png" alt="Description of image" className="img-fluid rounded border border-dark" />
+          <img src="/profile2.png" alt="Description of image" className="img-fluid rounded border border-dark mt-lg-5 me-lg-5" />
         </div>
         <div className="text-section pt-2">
           <div className="terminal">
