@@ -82,13 +82,13 @@ function About() {
               <p><span className="command">certificate (main) $</span> <span className="lighter">ls</span></p>
               <p className="section-title">FreeCodeCamp Frontend Certificates</p>
               <ul className="skills">
-                <li><a href="./public/responsive_web_design.png" title="Responsive Web Design Certificate" target="_blank">Responsive Web Design (html, css)</a></li>
-                <li><a href="./public/javascript.png" title="JavaScript Algorithms and Data Structures Certificate" target="_blank">JavaScript Algorithms and Data Structures (JavaScript)</a></li>
-                <li><a href="./public/frontend-libraries.png" title="Front End Development Libraries Certificate" target="_blank">Front End Development Libraries (React, Bootstrap, jQuery)</a></li>
-                <li><a href="./public/data-visualization.png" title="Data Visualization Certificate" target="_blank">Data Visualization (D3.js)</a></li>
-                <li><a href="./public/backend.png" title="Back End Development and APIs Certificate" target="_blank">Back End Development and APIs (Node, Express, MongoDB)</a></li>
-                <li><a href="./public/backend.png" title="Relational Database Certificate" target="_blank">Relational Database (Bash and SQL)</a></li>
-                <li><a href="./public/quality-assurance.png" title="Quality Assurance Certificate" target="_blank">Quality Assurance (Chai, Mocha)</a></li>
+                <li><a href="/responsive_web_design.png" title="Responsive Web Design Certificate" target="_blank">Responsive Web Design (html, css)</a></li>
+                <li><a href="/javascript.png" title="JavaScript Algorithms and Data Structures Certificate" target="_blank">JavaScript Algorithms and Data Structures (JavaScript)</a></li>
+                <li><a href="/frontend-libraries.png" title="Front End Development Libraries Certificate" target="_blank">Front End Development Libraries (React, Bootstrap, jQuery)</a></li>
+                <li><a href="/data-visualization.png" title="Data Visualization Certificate" target="_blank">Data Visualization (D3.js)</a></li>
+                <li><a href="/backend.png" title="Back End Development and APIs Certificate" target="_blank">Back End Development and APIs (Node, Express, MongoDB)</a></li>
+                <li><a href="/backend.png" title="Relational Database Certificate" target="_blank">Relational Database (Bash and SQL)</a></li>
+                <li><a href="/quality-assurance.png" title="Quality Assurance Certificate" target="_blank">Quality Assurance (Chai, Mocha)</a></li>
               </ul>
             </div>
           </div>
