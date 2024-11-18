@@ -39,7 +39,7 @@
   border-radius: 2px; /* Rounded corners */
   text-align: center; /* Center the text */
   width: 48%; /* Adjust width to fit two buttons side by side */
-  margin: 1px; /* Space between buttons */
+  margin: 10px; /* Space between buttons */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Optional: add a shadow for depth */
   transition: background-color 0.3s ease; /* Smooth background color transition */
 }

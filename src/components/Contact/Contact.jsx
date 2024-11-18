@@ -12,7 +12,7 @@ function Contact() {
           I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision. Feel free to reach out!
         </h4>
         <div className="contact-details">
-          <div className="button-container">
+          <div className="button-container d-flex justify-content-center">
             <a href="mailto:danutnanu@icloud.com" className="btn email-btn">Email</a>
             <a href="https://www.linkedin.com/in/danut-nanu-7474b4267/" target="_blank" rel="noopener noreferrer" className="btn linkedin-btn">LinkedIn</a>
             <a href="https://github.com/danutnanu" target="_blank" rel="noopener noreferrer" className="btn github-btn">GitHub</a>
