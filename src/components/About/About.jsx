@@ -60,7 +60,7 @@ function About() {
           </div>
         </div>
         <div className="image-section mt-5 pt-5 ">
-          <img src="/profile.png" alt="Description of image" className="img-fluid rounded border border-dark" />
+          <img src="/profile5.png" alt="Description of image" className="img-fluid rounded border border-dark" />
         </div>
       </div>
       <p className="bor-bottom"></p>
@@ -68,7 +68,7 @@ function About() {
       {/* Third Section */}
       <div className="border-container my-3 py-2 flex-container">
         <div className="image-section mb-5 py-5">
-          <img src="/profile.png" alt="Description of image" className="img-fluid rounded border border-dark" />
+          <img src="/profile2.png" alt="Description of image" className="img-fluid rounded border border-dark" />
         </div>
         <div className="text-section pt-2">
           <div className="terminal">
