@@ -20,8 +20,8 @@ function Navigation({ toggleTheme, darkMode }) {
       <Container>
         <div className="d-flex justify-content-between align-items-center w-100">
           <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={handleToggle} className="order-1 ms-2 me-2" />
-          <span className="badge text-bg-light p-1 ms-2 border border-warning order-2 d-lg-none">Portfolio</span>
-          <span className="badge text-bg-light p-1 border border-warning order-0 d-none d-lg-inline">Portfolio</span>
+          <span className="badge text-bg-light p-1 ms-2 border border-warning order-2 d-lg-none portfolio-badge">Portfolio</span>
+          <span className="badge text-bg-light p-1 border border-warning order-0 d-none d-lg-inline portfolio-badge">Portfolio</span>
           <button onClick={toggleTheme} className="btn btn-outline-secondary order-3 ms-4 me-2 d-lg-none">
             {darkMode ? '🌔' : '🌘'} 
           </button>

@@ -68,3 +68,9 @@
   background-color: #f7f7f7;
   color: #ae5656;
 }
+
+/* Add this to Navbar.css */
+.navbar .portfolio-badge {
+    font-size: 1.2rem; /* Increased size */
+    padding: 0.75rem 1.5rem; /* Increased padding */
+}
