@@ -15,14 +15,13 @@ This is a personal portfolio website built with React. It showcases my projects,
 
 ## Screenshots
 
-![Screenshot of Portfolio](./public/readme.png)
+![Screenshot of Portfolio](./public/readme3.png)
 
 ## Technologies Used
 
 - ⚛️ React
+- 🟡 JavaScript
 - 🎨 Bootstrap
-- 🌟 FontAwesome
-
 
 ## How to Use
 
@@ -45,7 +44,7 @@ This is a personal portfolio website built with React. It showcases my projects,
 
 5. **Start the Application**: Once the installation is complete, start the application with:
    ```bash
-   npm run start
+   npm run dev
    ```
 
 6. **View in Browser**: Open your browser and go to your localhost to see your project running.
