@@ -71,6 +71,6 @@
 
 /* Add this to Navbar.css */
 .navbar .portfolio-badge {
-    font-size: 1.2rem; /* Increased size */
-    padding: 0.75rem 1.5rem; /* Increased padding */
+    font-size: 1.2rem; 
+    padding: 0.75rem 1.5rem; 
 }
