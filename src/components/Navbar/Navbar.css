@@ -1,6 +1,6 @@
 /* Light Mode */
 .navbar {
-  background-color: #cecece; 
+  background-color: linear-gradient(90deg, #cecece, #d2d2d2);
   position: fixed; 
   width: 100%; 
   z-index: 1000; 
