@@ -13,8 +13,8 @@ function Contact() {
       <div className="contact-container">
         <h4>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision. Feel free to reach out!</h4>
         <div className="button-container d-flex justify-content-center">
-          <a 
-            href={`mailto:${emailAddress}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`} 
+          <a
+            href={`mailto:${emailAddress}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`}
             className="btn email-btn"
           >
             Email
@@ -23,6 +23,7 @@ function Contact() {
           <a href="https://github.com/danutnanu" target="_blank" rel="noopener noreferrer" className="btn github-btn">GitHub</a>
         </div>
       </div>
+      <p className="bor-bottom mb-1 py-4"></p>
     </Container>
   );
 }
