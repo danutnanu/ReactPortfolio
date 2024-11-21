@@ -121,6 +121,12 @@
 
 .skills div {
   width: 45%;
+  transition: transform 0.2s, font-weight 0.2s;
+}
+
+.skills div:hover {
+  transform: translateY(-3px);
+  font-weight: bold;
 }
 
 .text-section {
