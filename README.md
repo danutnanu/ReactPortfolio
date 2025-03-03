@@ -1,10 +1,15 @@
 # React Portfolio
 
-View the live site 
- 
+
 ## Project Overview
 
 This is a personal portfolio website built with React. It showcases my projects, skills, and experience in web development.
+
+
+ ## Live Demo
+
+Check out the live demo: [ReactPortfolio on Netlify](https://danutnanuportfolio.netlify.app/)
+
 
 ## Features
 
@@ -13,15 +18,18 @@ This is a personal portfolio website built with React. It showcases my projects,
 🎨  Smooth animations
 🔗  Easy navigation
 
+
 ## Screenshots
 
 ![Screenshot of Portfolio](./public/readme3.png)
+
 
 ## Technologies Used
 
 - ⚛️ React
 - 🟡 JavaScript
 - 🎨 Bootstrap
+
 
 ## How to Use
 
@@ -48,6 +56,7 @@ This is a personal portfolio website built with React. It showcases my projects,
    ```
 
 6. **View in Browser**: Open your browser and go to your localhost to see your project running.
+
 
 ## Contact
 
