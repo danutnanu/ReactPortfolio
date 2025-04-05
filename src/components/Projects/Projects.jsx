@@ -11,11 +11,11 @@ function Projects() {
         <div className='row g-5 justify-content-center'>
           {/* First Column */}
           <div className='col-12 col-md-6 col-lg-4 mb-4'>
-            <ProjectItem
-              img="RBAC.png"
-              description="Role Based Access Control"
-              link="https://rolebasedaccesscontrol.netlify.app/"
-              githubLink="https://github.com/danutnanu/RoleBasedAccessControl"
+          <ProjectItem
+              img="remotetrends.png"
+              description="RemoteTrends"
+              link="https://remotetrends.netlify.app/"
+              githubLink="https://github.com/danutnanu/RemoteTrends"
             />
             <ProjectItem
               img="clock.png"
@@ -41,6 +41,12 @@ function Projects() {
           </div>
           {/* Third Column */}
           <div className='col-12 col-md-6 col-lg-4 mb-4'>
+          <ProjectItem
+              img="RBAC.png"
+              description="Role Based Access Control"
+              link="https://rolebasedaccesscontrol.netlify.app/"
+              githubLink="https://github.com/danutnanu/RoleBasedAccessControl"
+            />
             <ProjectItem
               img="calculator.png"
               description="JavaScript Calculator"
