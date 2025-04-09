@@ -5,8 +5,8 @@ import './Home.css';
 function Home() {
   return (
     <>
-      <div className="fixed-container d-flex flex-column pt-5 mt-5 ms-5 vh-100">
-        <div className='content ms-5 ps-5'>
+      <div className="fixed-container d-flex position-fixed flex-column pt-5 mt-5 ms-5 vh-100">
+        <div className='content d-flex flex-column justify-content-center ms-5 ps-5 vh-100'>
           <h2 className='ms-3 pt-5 mt-5'>
             Hi, there!
             <span className="wave" role="img" aria-labelledby="wave">
