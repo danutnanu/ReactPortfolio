@@ -1,28 +1,16 @@
 .fixed-container {
   display: flex; 
   flex-direction: column; 
-  height: 100vh; /* Full height */
-  overflow: hidden; /* Prevent scrolling */
-  position: fixed;
+  overflow: hidden;
 }
 
-.content {
-  /* Default styles for medium and large devices */
-  display: flex; 
-  flex-direction: column; 
-  justify-content: center; 
-  height: calc(100vh - 90px); 
-}
-
-/* Styles for small devices */
 @media (max-width: 576px) {
   .content {
-    position: fixed; /* Keep content fixed in place */
-    top: 90px; /* Adjust top position to where you want it */
-    left: 55%; /* Center horizontally */
-    transform: translateX(-50%); /* Adjust to center */
-    height: calc(100vh - 90px); /* Adjust height to fit within the container */
-    overflow: hidden; /* Prevent scrolling within the content */
+    position: fixed; 
+    top: 90px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    overflow: hidden; 
   }
 }
 
