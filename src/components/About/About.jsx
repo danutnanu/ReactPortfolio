@@ -12,8 +12,8 @@ function About() {
         <div className="image-section my-5 pb-5">
           <img src="/profile.png" alt="Description of image" className="img-fluid rounded border border-dark" />
         </div>
-        <div className="text-section">
-          <div className="terminal">
+        <div className="text-section my-3">
+          <div className="terminal rounded-3">
             <div className="terminal-header">
               <span className="circle red"></span>
               <span className="circle yellow"></span>
@@ -30,8 +30,8 @@ function About() {
 
       {/* Second Section */}
       <div className="border-container my-3 py-5 flex-container">
-        <div className="text-section">
-          <div className="terminal">
+        <div className="text-section my-3">
+          <div className="terminal rounded-3">
             <div className="terminal-header">
               <span className="circle red"></span>
               <span className="circle yellow"></span>
@@ -59,19 +59,19 @@ function About() {
             </div>
           </div>
         </div>
-        <div className="image-section mt-5 pt-5 ">
+        <div className="image-section mt-5 pt-5 pb-5">
           <img src="/profile5.png" alt="Description of image" className="img-fluid rounded border border-dark" />
         </div>
       </div>
       <p className="bor-bottom"></p>
 
       {/* Third Section */}
-      <div className="border-container my-3 py-2 flex-container">
+      <div className="flex-container border-container my-3 py-5">
         <div className="image-section mb-5 py-5">
           <img src="/profile2.png" alt="Description of image" className="img-fluid rounded border border-dark mt-lg-5 me-lg-5" />
         </div>
-        <div className="text-section pt-2">
-          <div className="terminal">
+        <div className="text-section my-3">
+          <div className="terminal rounded-3">
             <div className="terminal-header">
               <span className="circle red"></span>
               <span className="circle yellow"></span>

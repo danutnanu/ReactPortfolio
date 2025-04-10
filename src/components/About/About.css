@@ -3,9 +3,6 @@
   background-color: #2d2d2d;
   color: #d3d3d3; 
   font-family: 'Courier New', Courier, monospace;
-  border-radius: 8px;
-  max-width: 600px;
-  margin: 20px auto;
   overflow: hidden;
 }
 
@@ -17,7 +14,7 @@
 }
 
 .image-section, .text-section {
-  margin: 20px; 
+  /* margin: 20px;  */
   flex: 1; 
 }
 
@@ -37,11 +34,6 @@
     max-width: 100%; 
     height: auto; 
     max-height: 300px; 
-  }
-
-  .text-section {
-    width: 100%;
-    margin-top: 30px;
   }
 
   .terminal {
@@ -134,6 +126,6 @@
   padding: 0; 
 }
 
-.bor-bottom {
-  border-bottom: 2px solid #0d8f615e; 
-}
+/* .bor-bottom {
+  border-bottom: 2px solid #9de4cb5e; 
+} */
