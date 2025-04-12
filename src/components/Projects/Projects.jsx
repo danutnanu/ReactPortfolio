@@ -7,7 +7,7 @@ function Projects() {
   return (
     <Container className="p-lg-5 p-md-3 p-sm-3 ms-lg-5 vh-100">
       <h1 className='text-start my-5 pt-5 bor-bottom'>Projects</h1>
-      <div className='projects__container'>
+      <div className='projects__container d-flex flex-column align-items-center pt-5'>
         <div className='row g-5 justify-content-center'>
           {/* First Column */}
           <div className='col-12 col-md-6 col-lg-4 mb-4'>
@@ -62,7 +62,7 @@ function Projects() {
           </div>
         </div>
       </div>
-      <p className="bor-bottom mb-5"></p>
+      <p className="bor-bottom"></p>
     </Container>
   );
 }
