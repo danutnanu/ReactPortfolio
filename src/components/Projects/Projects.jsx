@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Container } from 'react-bootstrap';
 import ProjectItem from '../ProjectItem'; 
 import './Projects.css';
 
 function Projects() {
+  useEffect(() => {
+    window.scrollTo(0, 0); 
+  }, []);
+  
   return (
     <Container className="p-lg-5 p-md-3 p-sm-3 ms-lg-5 vh-100">
       <h1 className='text-start my-5 pt-5 bor-bottom'>Projects</h1>
