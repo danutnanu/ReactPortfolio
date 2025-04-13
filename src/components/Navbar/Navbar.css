@@ -1,14 +1,10 @@
 /* Light Mode */
 .navbar {
   background-color: #cecece;
-  position: fixed; 
-  width: 100%; 
-  z-index: 1000; 
 }
 
 .nav-link {
   color: #333333; 
-  position: relative; 
 }
 
 .navbar-nav .nav-link::after {
